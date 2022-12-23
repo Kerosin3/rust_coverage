@@ -17,7 +17,7 @@ jobs:
 
   coverage_report:
     name: Generate coverage report
-    needs: Build
+    needs: build
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code

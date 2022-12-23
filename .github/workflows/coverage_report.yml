@@ -7,6 +7,14 @@ on:
 name: Continuous Integration
 
 jobs:
+  dummy:
+    name: runs1
+    runs-on: ubuntu-latest
+    steps:
+    - name: run some
+      run: |
+        echo "we are here"
+
   coverage_report:
     name: Generate coverage report
     needs: testing

@@ -16,7 +16,7 @@ on:
 env:
   BIN_NAME: lib_shouse
   PROJECT_NAME: lib_shouse
-  REPO_NAME: Kerosin3/rust_coverage
+  REPO_NAME: ${{ github.event.repository.name }}
   BREW_TAP: Kerosin3/homebrew-tap
 
 jobs:

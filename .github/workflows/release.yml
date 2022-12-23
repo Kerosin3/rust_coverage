@@ -14,10 +14,10 @@ on:
 
 # 2. fill these in and you're done.
 env:
-  BIN_NAME: starter_project
-  PROJECT_NAME: starter_project
-  REPO_NAME: jondot/starter_project
-  BREW_TAP: jondot/homebrew-tap
+  BIN_NAME: lib_shouse
+  PROJECT_NAME: lib_shouse
+  REPO_NAME: Kerosin3/rust_coverage
+  BREW_TAP: Kerosin3/homebrew-tap
 
 jobs:
   dist:

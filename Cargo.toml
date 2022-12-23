@@ -1,5 +1,2 @@
 [workspace]
-members = [
-  "starter_project",
-  "xtask",
-]
+members = ["lib_shouse","shouse_b","xtask"]

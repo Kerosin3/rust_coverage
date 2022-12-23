@@ -89,6 +89,7 @@ jobs:
         uses: codecov/codecov-action@v3
         with:
           files: coverage/*.lcov
+          gcov: true
             # token: ${{ secrets.YOUR_SECRET_TOKEN }}
 
   lints:
